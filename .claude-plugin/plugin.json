@@ -1,0 +1,16 @@
+{
+  "name": "nanobanana-mcp",
+  "version": "1.0.0",
+  "description": "Hardened MCP server for Gemini image generation and editing with model selection and security fixes",
+  "author": "DojoCodingLabs",
+  "mcpServers": {
+    "nanobanana": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/dist/index.js"],
+      "env": {
+        "GEMINI_API_KEY": "${GEMINI_API_KEY}",
+        "NANOBANANA_MODEL": "${NANOBANANA_MODEL}"
+      }
+    }
+  }
+}
