@@ -1,0 +1,35 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "nanobanana-mcp",
+  "version": "1.0.0",
+  "description": "AI image generation and editing for Claude Code via Gemini. Generate, edit, and iteratively refine images using text prompts without leaving your terminal.",
+  "owner": {
+    "name": "Dojo Coding Labs",
+    "email": "team@dojocoding.io"
+  },
+  "plugins": [
+    {
+      "name": "nanobanana-mcp",
+      "description": "MCP server providing generate_image, edit_image, and continue_editing tools powered by Google Gemini. Supports model selection (Flash, Pro, 3.1 Flash), security-hardened file handling, and iterative editing sessions. Images saved to ~/nanobanana-images/.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Dojo Coding Labs",
+        "email": "team@dojocoding.io"
+      },
+      "source": "./",
+      "homepage": "https://github.com/DojoCodingLabs/nanobanana-mcp",
+      "category": "tools",
+      "keywords": [
+        "claude-code",
+        "claude-code-plugin",
+        "mcp",
+        "mcp-server",
+        "image-generation",
+        "gemini",
+        "ai-images",
+        "image-editing",
+        "nanobanana"
+      ]
+    }
+  ]
+}

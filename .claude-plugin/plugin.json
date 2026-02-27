@@ -1,8 +1,26 @@
 {
   "name": "nanobanana-mcp",
   "version": "1.0.0",
-  "description": "Hardened MCP server for Gemini image generation and editing with model selection and security fixes",
-  "author": "DojoCodingLabs",
+  "description": "AI image generation and editing for Claude Code via Gemini. Generate, edit, and iteratively refine images using text prompts without leaving your terminal.",
+  "author": {
+    "name": "Dojo Coding Labs",
+    "url": "https://github.com/DojoCodingLabs"
+  },
+  "homepage": "https://github.com/DojoCodingLabs/nanobanana-mcp#readme",
+  "repository": "https://github.com/DojoCodingLabs/nanobanana-mcp",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "mcp",
+    "mcp-server",
+    "image-generation",
+    "gemini",
+    "ai-images",
+    "image-editing",
+    "nanobanana",
+    "dojo-coding"
+  ],
   "mcpServers": {
     "nanobanana": {
       "command": "node",
