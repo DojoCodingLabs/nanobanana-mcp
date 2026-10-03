@@ -1,0 +1,11 @@
+name = "nanobanana-mcp"
+tagline = "Hardened MCP server for [Gemini images]"
+chips = ["3 tools / 3 models"]
+meta = "Open source · TypeScript"
+tile = "{ }"
+
+[card]
+kind = "tools"
+label = "MCP server"
+status = "v1.0.0 · MIT"
+tools = ["generate_image", "edit_image", "continue_editing"]
