@@ -1,6 +1,22 @@
+<p align="center">
+  <a href="https://dojocoding.io">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="docs/assets/banner-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="docs/assets/banner-light.svg">
+      <img alt="nanobanana-mcp by Dojo Coding: Hardened MCP server for Gemini images" src="docs/assets/banner-light.svg" width="100%">
+    </picture>
+  </a>
+</p>
+
 # nanobanana-mcp
 
+**An MCP server for builders who want to generate and edit images with Google Gemini from Claude Code or any other MCP client.**
+
 A hardened MCP server for Gemini image generation. Fork of [ConechoAI/Nano-Banana-MCP](https://github.com/ConechoAI/Nano-Banana-MCP) with security fixes, strict TypeScript, and model selection.
+
+[![Version 1.0.0](https://img.shields.io/badge/version-1.0.0-FF7151?labelColor=201E3D)](package.json) [![License MIT](https://img.shields.io/badge/license-MIT-FF7151?labelColor=201E3D)](LICENSE) [![Node.js 18+](https://img.shields.io/badge/Node.js-18%2B-201E3D?labelColor=201E3D)](https://nodejs.org)
+
+[Get started](#quick-start) · [Tools](#tools) · [Configuration](#configuration) · [Security](#security) · [Report an issue](https://github.com/DojoCodingLabs/nanobanana-mcp/issues/new)
 
 ## Features
 
@@ -127,4 +143,8 @@ src/
 
 ## License
 
-MIT - Based on [ConechoAI/Nano-Banana-MCP](https://github.com/ConechoAI/Nano-Banana-MCP)
+[MIT](LICENSE) - Based on [ConechoAI/Nano-Banana-MCP](https://github.com/ConechoAI/Nano-Banana-MCP). Built by [Dojo Coding](https://dojocoding.io).
+
+<p align="center">
+  <a href="https://dojocoding.io"><img src="docs/assets/dojocoding-mark.png" alt="Dojo Coding" width="48"></a>
+</p>
